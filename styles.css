@@ -6,6 +6,10 @@
   right: 10vw;
 }
 
+nav {
+  margin: 5% 15%;
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -14,14 +18,6 @@
 
 .column:hover {
   cursor: pointer;
-}
-
-.column:hover h1 {
-  color: #fcff58;
-}
-
-.column:hover h6 {
-  color: #fcff58;
 }
 
 ul {
@@ -44,23 +40,6 @@ ul {
 li:hover {
   cursor: pointer;
   color: #fcff58;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 5% 15%;
-  height: 350px;
-}
-
-h6 {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0;
-  white-space: nowrap;
 }
 
 h4 {
@@ -133,17 +112,9 @@ h5 {
     padding: 1.5rem;
   }
 
-  h1 {
-    font-size: 6vw;
-  }
-
   h2 {
     font-size: 3vw;
     margin: 2% 2% 2% 2%;
-  }
-
-  h6 {
-    font-size: 2vw;
   }
 
   p {
@@ -167,26 +138,14 @@ h5 {
 }
 
 @media screen and (max-width: 1062px) {
-  nav {
-    flex-direction: column;
-    justify-content: center;
-  }
   .li {
     padding: none;
     margin-top: 5vw;
     font-size: 3vw;
   }
 
-  h1 {
-    font-size: 9vw;
-  }
-
   h2 {
     font-size: 4.5vw;
-  }
-
-  h6 {
-    font-size: 3vw;
   }
 
   p {
@@ -203,25 +162,13 @@ h5 {
     height: 35vh;
   }
 
-  nav {
-    flex-direction: column;
-    justify-content: center;
-  }
   .li {
     padding: none;
     margin-top: 5vw;
     font-size: 4vw;
   }
 
-  h1 {
-    font-size: 14vw;
-  }
-
   h2 {
-    font-size: 4.5vw;
-  }
-
-  h6 {
     font-size: 4.5vw;
   }
 

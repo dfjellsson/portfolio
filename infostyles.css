@@ -29,8 +29,6 @@ body::before {
   text-decoration: none;
 }
 
-
-
 .showreel {
   position: fixed;
   bottom: 0;
@@ -46,14 +44,6 @@ body::before {
 
 .column:hover {
   cursor: pointer;
-}
-
-.column:hover h1 {
-  color: #fcff58;
-}
-
-.column:hover h6 {
-  color: #fcff58;
 }
 
 ul {
@@ -79,22 +69,6 @@ li:hover {
   color: #fcff58;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 3% 15% 3% 15%;
-}
-
-h1 {
-  color: #b9bb47;
-  text-align: center;
-  font-size: 6rem;
-  font-weight: 700;
-  margin: 1rem;
-}
-
 h3 {
   color: #b9bb47;
   font-weight: 700;
@@ -106,15 +80,6 @@ h3 {
 
 h3:hover {
   color: #fcff58;
-}
-
-h6 {
-  color: #b9bb47;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0;
-  white-space: nowrap;
 }
 
 p {
@@ -161,6 +126,7 @@ h2 {
   justify-items: center;
   flex-direction: column;
   height: 300px;
+  gap: 2rem;
 }
 
 .column3 {
@@ -168,18 +134,6 @@ h2 {
   justify-content: center;
   justify-items: center;
   flex-direction: column;
-}
-
-.column3:hover h1 {
-  color: #fcff58;
-}
-
-.column3:hover h6 {
-  color: #fcff58;
-}
-
-.h6 {
-  margin: 1rem;
 }
 
 .icons {
@@ -202,10 +156,10 @@ h2 {
 }
 
 .cv {
-text-align: center;
-font-size: 3vw;
-font-weight: 700;
-margin: 1rem;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: 700;
+  margin: 1rem;
 }
 
 @media screen and (min-width: 2000px) {
@@ -228,51 +182,25 @@ margin: 1rem;
     font-size: 2vw;
   }
 
-  h1 {
-    font-size: 6vw;
-  }
-
   h2 {
     font-size: 3vw;
     margin: 2% 2% 2% 2%;
   }
-
-  h6 {
-    font-size: 2vw;
-  }
 }
 
 @media screen and (max-width: 1062px) {
-  nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .li {
     padding: none;
     margin-top: 5vw;
     font-size: 3vw;
   }
 
-  h1 {
-    font-size: 9vw;
-  }
-
   h2 {
     font-size: 4.5vw;
-  }
-
-  h6 {
-    font-size: 3vw;
   }
 }
 
 @media screen and (max-width: 600px) {
-  nav {
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .column {
     display: flex;
     flex-direction: column;
@@ -286,15 +214,7 @@ margin: 1rem;
     font-size: 3vw;
   }
 
-  h1 {
-    font-size: 14vw;
-  }
-
   h2 {
-    font-size: 4.5vw;
-  }
-
-  h6 {
     font-size: 4.5vw;
   }
 
@@ -302,5 +222,4 @@ margin: 1rem;
     width: 10vw;
     height: 10vw;
   }
-
 }
