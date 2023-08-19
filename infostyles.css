@@ -1,10 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "League Spartan", sans-serif;
-
+  font-family: 'League Spartan', sans-serif;
   font-weight: 200;
-
   font-style: normal;
-
 }
 
 html {
@@ -26,103 +29,13 @@ body::before {
   text-decoration: none;
 }
 
-.vl1 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  left: 25vw;
-  top: 0;
-}
 
-.vl11 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  left: 24vw;
-  top: 0;
-}
-
-.vl111 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  left: 23vw;
-  top: 0;
-}
-
-.vl1111 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  left: 22vw;
-  top: 0;
-}
-
-.vl11111 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  left: 21vw;
-  top: 0;
-}
-
-.vl2 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  right: 25vw;
-  top: 0;
-}
-
-.vl22 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  right: 24vw;
-  top: 0;
-}
-
-.vl222 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  right: 23vw;
-  top: 0;
-}
-
-.vl2222 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  right: 22vw;
-  top: 0;
-}
-
-.vl22222 {
-  background-color: #b9bb47;
-  width: 1px;
-  height: 100%;
-  position: fixed;
-  right: 21vw;
-  top: 0;
-}
 
 .showreel {
   position: fixed;
   bottom: 0;
   width: 100%;
 }
-
-
 
 .column {
   display: flex;
@@ -250,6 +163,21 @@ h2 {
   height: 300px;
 }
 
+.column3 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.column3:hover h1 {
+  color: #fcff58;
+}
+
+.column3:hover h6 {
+  color: #fcff58;
+}
+
 .h6 {
   margin: 1rem;
 }
@@ -266,10 +194,18 @@ h2 {
   height: 5vw;
   margin: 1rem;
   opacity: 70%;
+  text-decoration: none;
 }
 
 .icon:hover {
   opacity: 100%;
+}
+
+.cv {
+text-align: center;
+font-size: 3vw;
+font-weight: 700;
+margin: 1rem;
 }
 
 @media screen and (min-width: 2000px) {
@@ -362,16 +298,9 @@ h2 {
     font-size: 4.5vw;
   }
 
-  .vl1 {
-    left: 50px;
-  }
-
-  .vl2 {
-    right: 50px;
-  }
-
   .icon {
     width: 10vw;
     height: 10vw;
   }
+
 }

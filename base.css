@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #b9bb47;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 100vh;
+  background-color: black;
+  background-size: cover;
+  z-index: -1;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.a:hover h1 {
+  color: #fcff58;
+}
+
+p {
+  color: #b9bb47;
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1%;
+  width: min-content;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+/* Vertical lines */
+.vl1,
+.vl11,
+.vl111,
+.vl1111,
+.vl11111,
+.vl2,
+.vl22,
+.vl222,
+.vl2222,
+.vl22222 {
+  background-color: #b9bb47;
+  width: 1px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.vl1 {
+  left: 1vw;
+}
+
+.vl11 {
+  left: 2vw;
+}
+
+.vl111 {
+  left: 3vw;
+}
+
+.vl1111 {
+  left: 4vw;
+}
+
+.vl11111 {
+  left: 5vw;
+}
+
+.vl2 {
+  right: 5vw;
+}
+
+.vl22 {
+  right: 4vw;
+}
+
+.vl222 {
+  right: 3vw;
+}
+
+.vl2222 {
+  right: 2vw;
+}
+
+.vl22222 {
+  right: 1vw;
+}
+
+.showreel {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Showreel */
+.showreel h3 {
+  color: #b9bb47;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.showreel h3:hover {
+  color: #fcff58;
+}
+
+.boxborder {
+border-color: #b9bb47;
+border-width:1px;
+padding: 8px 32px;
+ border-style:solid;
+}
+
+.boxborder:hover {
+border-color: #fcff58;
+}
+
+
